@@ -1,0 +1,45 @@
+body{margin:0;overflow:hidden}
+.menu{
+  font-size: 125%;
+  margin-top: 2%;     /*menu alignment*/
+  margin-right: 5%;
+  text-align: right;
+}
+
+h1{
+  background-color: rgb(235, 110, 110);  /*frame*/
+  width: 300px;
+  border: 15px solid rgb(7, 245, 7);
+  padding: 25px;
+  margin: 20px;
+  margin-left: auto;        /*align h1*/
+  margin-right: auto;
+  text-align: center;
+  font-family: cursive;
+}
+.root{  
+  width: 100vw;
+  height: 100vh;
+  background: black; /* background*/
+  overflow: hidden;
+}
+
+.eye {
+  position: absolute;
+  border-radius: 50%;   
+  height: 100px;           /*position distribution*/
+  width: 100px;
+  background: transparent;
+  _border: 1px solid red;
+  transition: left 5s, top 5s;
+}
+.eye:after { 
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 20px;   /*make a square*/
+  height: 40px;
+  background: currentColor;
+  border-radius: 5px;
+  content: " ";
+}

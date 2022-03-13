@@ -1,0 +1,65 @@
+body{margin:0;overflow:hidden}
+.menu{
+      font-size: 125%;
+      margin-top: 2%;             /*menu alignment*/
+      margin-right: 5%; 
+      text-align: right;
+    }
+    h1{
+        text-align: center;
+        margin-left: auto;        /*align h1*/
+        margin-right: auto;
+        font-family: cursive;
+        color: rgb(240, 6, 248);
+        font-size: 50px;
+      } 
+      h2{
+          text-align: center; 
+          font-family: Aclonica;     /*align h2*/
+          font-weight: normal;
+          color: rgb(248, 151, 6);
+      }
+      h3{ 
+          text-align: center; 
+          font-family: Aclonica;       /*align h3*/
+          font-weight: normal;
+          color: rgb(248, 151, 6);
+      }
+      h3{ 
+          text-align: center; 
+          font-family: Aclonica;       /*align h3*/
+          font-weight: normal;
+          color: rgb(248, 151, 6);
+      }
+      p{
+          text-align: center;            /*align p*/
+          color: rgb(248, 151, 6);
+          font-size: 30px;
+      }
+      .root{
+        width: 100vw;
+        height: 100vh;
+        background: black;     /* background*/
+        overflow: hidden;
+      }
+      
+      .eye {
+        position: absolute;
+        border-radius: 50%;
+        height: 100px;              /*position distribution*/
+        width: 100px;
+        background: transparent;
+        _border: 1px solid red;
+        transition: left 5s, top 5s;
+      }
+      .eye:after { 
+        position: absolute;
+        top: 0;
+        left: 70%;
+        width: 30px;    /*Create a circle*/
+        height: 30px;
+        background: linear-gradient(#5a5aff, cyan);
+        border-radius: 20px;
+        content: " ";
+      }
+     
